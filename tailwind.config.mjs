@@ -11,7 +11,16 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+
+      fontFamily: {
+        delius: ['var(--font-delius)'],
+        arvo: ['var(--font-arvo)'],
+       
+      },
     },
   },
-  plugins: [],
+  plugins: [require('daisyui'),],
+  daisyui: {
+    themes: ["light", "dark", "cupcake"],
+  },
 };
