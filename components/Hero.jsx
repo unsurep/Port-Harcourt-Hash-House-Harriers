@@ -23,12 +23,12 @@ const Hero = () => {
     <div className={`${arvoFont.variable}`}>
       {/* SECTION 1 */}
         <section id='section1' className='h-screen bg-cover  bg-center bg-no-repeat' style={{ backgroundImage: "url('/image/bg-sec1.avif')" }}>
-            <div className='bg-white h-[60%] md:h-[60%] text-3xl md:px-[3rem] '>
+            <div className='bg-white h-[60%] md:h-[70%] text-3xl md:px-[3rem] '>
               <h1 className="text-base pt-[4rem] md:pt-[8rem] font-semibold text-center font-arvo">Welcome to</h1>
-              <h1 className='flex items-center justify-center pt-[1rem] md:pt-[1rem] font-arvo head_text tracking-[10px] '>{text}</h1>
+              <h1 className='flex items-center justify-center pt-[1rem] md:pt-[1rem] font-arvo head_text tracking-[5px] '>{text}</h1>
               <p className='text-center text-base md:text-[20px] pt-[2rem] font-arvo'>We are a drinking club with a running problem.</p>
               <p className='text-center pt-[1rem] text-sm font-arvo md:text-xl'>We drink beer to save water</p>
-              <p className='text-center pt-[2rem] text-base font-arvo md:text-xl flex items-center justify-center gap-2'>Join us every Friday at 5pm!
+              <p className='text-center pt-[1rem] text-base font-arvo md:text-xl flex items-center justify-center gap-2'>Join us every Friday at 5pm!
                 <Image src='/image/beer1.svg' width={35} height={35} alt="beericon" className="animate-bounce"/>
               </p>
             </div>
