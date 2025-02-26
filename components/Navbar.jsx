@@ -18,7 +18,7 @@ const Navbar=()=>{
     return (
         <div className={`${deliusFont.variable}`}>
             {/* Desktop view */}
-            <nav className="lg:flex items-center justify-between px-[3rem] py-3 font-delius shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] fixed  w-full ring ring-red-200 hidden bg-white ">
+            <nav className="lg:flex items-center justify-between px-[3rem] py-3 font-delius shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] fixed z-50  w-full ring ring-red-200 hidden bg-white ">
                 <Link href={'/'}>
                     <div className="flex items-center gap-3">
                         <Image src='/image/logo.png' width={60} height={60} alt="logo"/>
