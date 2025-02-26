@@ -78,8 +78,16 @@ const Hero = () => {
             <p className="text-sm md:text-[20px] leading-6">Port Harcourt Hash House Harriers is a branch of a <br /> vibrant community that unites runners and beer lovers. <br /> We host weekly, non-competitive runs, to celebrate and <br /> promote physical fitness and friendship. Join us to  experience <br /> dynamic adventures and lasting connections ON ON!.</p>
 
           </div>
-
         </section>
+
+        {/* SECTION 3 */}
+        <div className="px-[3rem] bg-white">
+          <div>
+            <Image src='' width={1000} height={1000} alt="image"/>
+          </div>
+
+
+        </div>
       
     </div>
   )
