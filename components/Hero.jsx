@@ -293,7 +293,7 @@ const Hero = () => {
             <div className="bg-black/40 pt-2 md:px-[3rem] ">
               <Image src='/image/save.png' width={300} height={300} alt="image" className=" "/>
             </div>
-            <div className="grid grid-cols-1 gap-3 md:grid md:grid-cols-3 pt-10 bg-black/40 md:gap-16 md:px-[3rem] px-[1rem]">
+            <div className="grid grid-cols-1 gap-2 md:grid md:grid-cols-3 pt-10 bg-black/40 md:gap-16 md:px-[3rem] px-[1rem]">
               {/* 1 */}
               <div className="flex gap-1 md:gap-3 w-fit ">
                 <div><Image src='/image/ishoe.png' width={100} height={100} alt="hash gear" className=""/></div>
