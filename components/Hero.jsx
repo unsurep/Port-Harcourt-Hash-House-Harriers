@@ -233,12 +233,12 @@ const Hero = () => {
           
           
         {/* Section 5 SOFT BABY */}
-        <div id="section5" className="bg-black text-gray-200/50 h-[40%] lg:flex font-arvo">
+        <div id="section5" className="bg-black text-gray-200/50 h-[40%] lg:flex font-arvo pb-12 relative">
           <div>
             <Image src='https://res.cloudinary.com/dvkmv0k18/image/upload/v1740602752/DSC_5481_zen0c1.jpg' width={700} height={100} alt="image"/>
           </div>
           
-          <div className="flex flex-col items-center justify-center mx-auto pt-5">
+          <div className="flex flex-col items-center justify-center mx-auto pt-5 relative">
             <p className="leading-8 pb-[1.5rem] text-sm md:text-xl px-[1rem]">“Hashing is a life style and cold beer heals all wound. <br /> We hash to promote physical fitness among hashers, <br /> We hash to get rid of weekend hangovers, <br /> We hash to acquire a good thirst and to satisfy it with beer and <br /> To persuade the older hashers they are not as old as they feel.”
             </p>
 
@@ -270,11 +270,115 @@ const Hero = () => {
               
               <ul className="flex flex-col items-center justify-center text-white">
                 <li className="font-semibold">SOFT BABY</li>
-                <li className="text-sm">PH H<sup>3</sup></li>
+                <li className="text-sm block">#PH H<sup>3</sup></li>
               </ul>
             </div>
-
           </div>
+
+            {/*tablet screen hidden  */}
+          <div className="absolute top-[20rem] md:block hidden right-[2rem]">
+            <Image src='/image/w-can.png' width={100} height={100} alt="image of water can"/>
+          </div>
+            
+          {/* small screen */}
+          <div className="absolute top-[37rem] md:hidden right-[1rem]">
+            <Image src='/image/w-can.png' width={30} height={30} alt="image of water can"/>
+          </div>
+          
+        </div>
+
+        {/* SECTION 6  */}
+        <div id='section6' className=' h-screen bg-cover bg-center bg-no-repeat' style={{ backgroundImage: "url('/image/lucas1.jpg')" }}>
+          <div className="">
+            <div className="bg-black/40 md:pt-6 md:px-[3rem] ">
+              <Image src='/image/save.png' width={300} height={300} alt="image" className=" "/>
+            </div>
+            <div className="grid grid-cols-2 md:grid md:grid-cols-3 pt-1 md:pt-24 bg-black/40 md:gap-16 md:px-[3rem]">
+              {/* 1 */}
+              <div className="flex gap-1 md:gap-3 w-fit ">
+                <div><Image src='/image/ishoe.png' width={100} height={100} alt="hash gear" className=""/></div>
+                <div className="text-gray-100/90 font-arvo ">
+                  <h2 className="md:text-2xl font-bold text-xs">MR. BAD LEG</h2>
+                  <p className="text-xs md:text-lg">As a hasher, your hash gear is your identity. <br /> Make sure you always come with it.</p>
+                </div>
+              </div>
+
+              {/* 2 */}
+              <div className="flex gap-1 md:gap-3 w-fit">
+                <div><Image src='/image/isexz.png' width={200} height={200} alt="hash gear" className=""/></div>
+                <div className="text-gray-100/90 font-arvo">
+                  <h2 className="md:text-2xl font-bold text-xs">UNSURE</h2>
+                  <p className="text-xs md:text-lg">It is not the size of the dog in the fight but rather the size of the fight in the DOG.</p>
+                </div>
+              </div>
+
+              {/* 3 */}
+              <div className="flex gap-1 md:gap-3 w-fit">
+                <div><Image src='/image/ionon.png' width={300} height={300} alt="hash gear" className=""/></div>
+                <div className="text-gray-100/90 font-arvo">
+                  <h2 className="md:text-2xl font-bold text-xs">AWAY RUNS</h2>
+                  <p className="text-xs md:text-lg">The Hash is a non-competitive club that brings together runners and beer lovers for a refreshing reward at the end.</p>
+                </div>
+              </div>
+
+              {/* 4 */}
+              <div className="flex gap-1 md:gap-3 w-fit">
+                <div><Image src='/image/ican.png' width={100} height={100} alt="hash gear" className=""/></div>
+                <div className="text-gray-100/90 font-arvo">
+                  <h2 className="md:text-2xl font-bold text-xs">BEER MERCHANT</h2>
+                  <p className="text-xs md:text-lg">We drink Lager to save water.</p>
+                </div>
+              </div>
+
+              {/* 5 */}
+              <div className="flex gap-1 md:gap-3 w-fit">
+                <div><Image src='/image/iwork.png' width={300} height={300} alt="hash gear" className=""/></div>
+                <div className="text-gray-100/90 font-arvo">
+                  <h2 className="md:text-2xl font-bold text-xs">I AM NOT AN HASHER</h2>
+                  <p className="text-xs md:text-lg">Every hasher is unique. We are fun-loving people who come together for the thrill of a great trail and the joy of a cold beer </p>
+                </div>
+              </div>
+
+               {/* 6 */}
+               <div className="flex gap-1 md:gap-3 w-fit">
+                <div><Image src='/image/iwatch.png' width={100} height={100} alt="hash gear" className=""/></div>
+                <div className="text-gray-100/90 font-arvo">
+                  <h2 className="md:text-2xl font-bold text-xs">REGO</h2>
+                  <p className="text-xs md:text-lg">Rego is a hasher's key. No Rego, No Hashing.</p>
+                </div>
+              </div>
+
+              
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+          </div>
+        <div className="h-screen bg-black/40"/>
+        
+        
+
+
+
+
+
+
+
+
+
+        </div>
+
+        {/* SECTION 7 LEADERS DASHBOARD */}
+        <div id="section7" className="bg-white h-screen w-full">
+          
 
         </div>
       
