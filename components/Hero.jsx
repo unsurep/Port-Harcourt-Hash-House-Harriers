@@ -259,9 +259,9 @@ const Hero = () => {
               className='relative flex justify-center items-center mt'>
                 <div className='absolute border border-blue-400/50 rounded-full h-[150px] w-[150px] mt-4 animate-ping'/>
 
-                <div className='absolute border border-blue-200/50 rounded-full h-[250px] w-[250px] mt-4'/>
+                {/* <div className='absolute border border-blue-200/50 rounded-full h-[250px] w-[250px] mt-4'/> */}
 
-                <div className='absolute border border-[#F7AB0A]/50 rounded-full h-[350px] w-[350px] mt-4 animate-ping'/>
+                <div className='absolute border border-blue-400/50 rounded-full h-[350px] w-[350px] mt-4 animate-ping'/>
 
                 {/* <div className='rounded-full border border-[#F7AB0A]/50 opacity-20 h-[500px] w-[500px] absolute mt-52 animate-pulse'/> */}
                 <Image src='/image/softb.jpg' width={100} height={10} alt="profile image" className="ring ring-blue-400 rounded-full" />
