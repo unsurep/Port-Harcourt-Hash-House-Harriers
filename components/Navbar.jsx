@@ -36,8 +36,11 @@ const Navbar=()=>{
                     <li className="hvr-underline-from-center cursor-pointer">About</li>
                     <li className="hvr-underline-from-center cursor-pointer">Photo-Blast</li>
                     <li className="hvr-underline-from-center cursor-pointer">Misma</li>
-                    <li className="hvr-underline-from-center cursor-pointer">Guidelines</li>
-                    <li className="cursor-pointer"><FaRegCircleUser className="text-2xl"/></li>
+                    <li className="hvr-underline-from-center cursor-pointer">#NWTS</li>
+
+                    <Link href={'/register'}>
+                        <li className="cursor-pointer"><FaRegCircleUser className="text-2xl"/></li>
+                    </Link>
 
                 </ul>
 
@@ -68,8 +71,11 @@ const Navbar=()=>{
                             <li>About</li>
                             <li>Photo-Blast</li>
                             <li>Misma</li>
-                            <li>Guidelines</li>
-                            <li>Register</li>
+                            <li>#NWTS</li>
+
+                            <Link href={'/register'}>
+                                <li>Register</li>
+                            </Link>
       
                         </ul>
                     </div>

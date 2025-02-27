@@ -100,7 +100,7 @@ const Hero = () => {
 
           <div className="md:absolute top-[5rem] pr-[16px] pb-5 right-[8rem] font-arvo h-[35%] md:bg-red-100/80 w-fit rounded-lg">
             <div className="right-[24rem] h-[100%] bg-gray-50/90  px-[1rem] py-10 rounded-lg">
-              <h1 className="font-bold text-2xl ">Hiking with your running shoes.</h1>
+              <h1 className="font-bold text-2xl ">Hiking with your running shoes ?</h1>
               <p className="pt-3 leading-5">Hiking with your running shoes lacks proper ankle support, <br /> compromises stability and durability compared to proper hiking boots <br /> which provide better grip and stability. Confirm from DGM Bigger  <br /> Twerk for more information else OTILO!</p>
             </div>
 
