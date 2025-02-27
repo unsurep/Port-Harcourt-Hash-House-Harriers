@@ -5,6 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Delius } from "next/font/google";
 import { IoMdMenu } from "react-icons/io";
+import { FaRegCircleUser } from "react-icons/fa6";
 
 const deliusFont = Delius({
     subsets: ['latin'],
@@ -36,7 +37,7 @@ const Navbar=()=>{
                     <li className="hvr-underline-from-center cursor-pointer">Photo-Blast</li>
                     <li className="hvr-underline-from-center cursor-pointer">Misma</li>
                     <li className="hvr-underline-from-center cursor-pointer">Guidelines</li>
-                    <li className="hvr-underline-from-center cursor-pointer">Contact Us</li>
+                    <li className="cursor-pointer"><FaRegCircleUser className="text-2xl"/></li>
 
                 </ul>
 
@@ -62,13 +63,13 @@ const Navbar=()=>{
                     </div>
                     <div className="drawer-side">
                         <label htmlFor="my-drawer-4" aria-label="close sidebar" className="drawer-overlay"></label>
-                        <ul className="menu bg-base-200 text-base-content min-h-full w-50 p-4 space-y-5 pt-5 font-delius">
+                        <ul className="menu bg-base-200 text-base-content min-h-full w-56 px-4 space-y-5 pt-5 font-delius">
                             <li>Home</li>
                             <li>About</li>
                             <li>Photo-Blast</li>
-                            <li>Mismanagement</li>
+                            <li>Misma</li>
                             <li>Guidelines</li>
-                            <li>Contact Us</li>
+                            <li>Register</li>
       
                         </ul>
                     </div>
