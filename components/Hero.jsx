@@ -290,10 +290,10 @@ const Hero = () => {
         {/* SECTION 6  */}
         <div id='section6' className=' h-screen bg-cover bg-center bg-no-repeat' style={{ backgroundImage: "url('/image/lucas1.jpg')" }}>
           <div className="">
-            <div className="bg-black/40 md:pt-6 md:px-[3rem] ">
+            <div className="bg-black/40 pt-2 md:px-[3rem] ">
               <Image src='/image/save.png' width={300} height={300} alt="image" className=" "/>
             </div>
-            <div className="grid grid-cols-2 md:grid md:grid-cols-3 pt-1 md:pt-24 bg-black/40 md:gap-16 md:px-[3rem]">
+            <div className="grid grid-cols-1 gap-5 md:grid md:grid-cols-3 pt-10 bg-black/40 md:gap-16 md:px-[3rem] px-[1rem]">
               {/* 1 */}
               <div className="flex gap-1 md:gap-3 w-fit ">
                 <div><Image src='/image/ishoe.png' width={100} height={100} alt="hash gear" className=""/></div>
@@ -378,6 +378,7 @@ const Hero = () => {
 
         {/* SECTION 7 LEADERS DASHBOARD */}
         <div id="section7" className="bg-white h-screen w-full">
+          leaders dashboard
           
 
         </div>
